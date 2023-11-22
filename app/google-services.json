@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "486334180215",
+    "firebase_url": "https://penjurian-qcc-ss-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "penjurian-qcc-ss",
+    "storage_bucket": "penjurian-qcc-ss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486334180215:android:0ebbc824c39d1b10b60f72",
+        "android_client_info": {
+          "package_name": "com.example.aplikasipenjurianqcc_ss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486334180215-c1gpbsgu95i51sllrt0g0tas720lob1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasipenjurianqcc_ss",
+            "certificate_hash": "caf55e4e542a3dd5d9578e737d0b76842e721840"
+          }
+        },
+        {
+          "client_id": "486334180215-os9a5422kinptui59c8v7op8nsm9kvp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZPhWtcIY1eX8ErDygpwc9Z24CeajFA2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486334180215-os9a5422kinptui59c8v7op8nsm9kvp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

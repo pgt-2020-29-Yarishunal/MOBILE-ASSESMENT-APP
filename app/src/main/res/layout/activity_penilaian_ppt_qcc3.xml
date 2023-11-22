@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".penilaian_ppt_qcc_3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:elevation="10dp"
+        android:background="@drawable/shape_2"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_5"
+            android:elevation="8dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/teks_admin_ppt_qcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="ADMIN"
+                android:textColor="#ffb938"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/teks_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/teks_admin_ppt_qcc"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="LIST ITEM PENILAIAN"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/user_128"></ImageView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="SUBMIT"
+                android:id="@+id/tmbl_input"
+                android:onClick="input_database"
+                android:backgroundTint="#28807D"
+                android:layout_gravity="right"
+                >
+            </Button>
+
+            <TextView
+                android:id="@+id/teks1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="@font/roboto_thin"
+                android:gravity="center_horizontal"
+                android:text="Tidak ada standarisasi (IKL,SOP,No drawing,dll..) yang dibuat \n \n(Point 3.75)"
+                android:textColor="@color/cardview_dark_background"
+                android:textSize="20sp"
+                android:textStyle="bold"></TextView>
+
+            <RadioButton
+                android:onClick="radio1"
+                android:id="@+id/radioButton1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/teks2"
+                android:text="Terdapat standarisasi (IKL,SOP,No drawing,dll..) dari beberapa perbaikan yang dilakukan \n \n(Point 7.5)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"></TextView>
+
+            <RadioButton
+                android:onClick="radio2"
+                android:id="@+id/radioButton2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/teks3"
+                android:text="Terdapat standarisasi (IKL,SOP,No drawing,dll..) dari semua perbaikan yang dilakukan \n \n(Point 11.25)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"></TextView>
+
+            <RadioButton
+                android:onClick="radio3"
+                android:id="@+id/radioButton3"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/teks4"
+                android:text="Terdapat standarisasi (IKL,SOP,No drawing,dll..) dari semua perbaikan yang dilakukan dan adanya bukti sosialisasi \n \n(Point 15)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"></TextView>
+
+            <RadioButton
+                android:onClick="radio4"
+                android:id="@+id/radioButton4"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

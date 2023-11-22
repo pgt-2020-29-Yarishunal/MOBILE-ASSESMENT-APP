@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".list_item_penilaian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:elevation="10dp"
+        android:background="@drawable/shape_2"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_5"
+            android:elevation="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/teks_admin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="ADMIN"
+                android:textColor="#ffb938"
+                android:textSize="24sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/teks_change_nama_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/teks_admin2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="LIST ITEM PENILAIAN"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/user_128"></ImageView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+            <TextView
+                android:id="@+id/teks_warna1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/teks_admin2"
+                android:layout_marginLeft="20dp"
+                android:text="Sudah diisi :"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:background="#28807D"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:id="@+id/teks_warna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/teks_admin2"
+                android:layout_marginLeft="20dp"
+                android:text="Belum diisi :"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:background="#3E5DB5"
+                android:layout_gravity="center"
+                ></ImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <GridView
+            android:id="@+id/grid_list_mobil"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:layout_gravity="center_horizontal"
+            android:verticalSpacing="10dp"
+            ></GridView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasipenjurianqcc_ss">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.APLIKASIPENJURIANQCCSS">
+        <activity
+            android:name=".penilaian_ppt_ss_6"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_ss_5"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_ss_4"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_ss_3"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_ss_2"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_ss_1"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_qcc_6"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_qcc_5"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_qcc_4"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_qcc_3"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_qcc_2"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_ppt_qcc_1"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_presentasi_ss"
+            android:exported="false" />
+        <activity
+            android:name=".penilaian_presentasi_qcc"
+            android:exported="false" />
+        <activity
+            android:name=".input_komen"
+            android:exported="false" />
+        <activity
+            android:name=".hasil_penilaian"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".point_ss_h"
+            android:exported="false" />
+        <activity
+            android:name=".point_ss_g"
+            android:exported="false" />
+        <activity
+            android:name=".point_ss_f"
+            android:exported="false" />
+        <activity
+            android:name=".point_ss_e"
+            android:exported="false" />
+        <activity
+            android:name=".point_ss_d"
+            android:exported="false" />
+        <activity
+            android:name=".point_s"
+            android:exported="false" />
+        <activity
+            android:name=".point_r"
+            android:exported="false" />
+        <activity
+            android:name=".point_q"
+            android:exported="false" />
+        <activity
+            android:name=".poin_p"
+            android:exported="false" />
+        <activity
+            android:name=".point_o"
+            android:exported="false" />
+        <activity
+            android:name=".point_n"
+            android:exported="false" />
+        <activity
+            android:name=".point_m"
+            android:exported="false" />
+        <activity
+            android:name=".point_l"
+            android:exported="false" />
+        <activity
+            android:name=".point_k"
+            android:exported="false" />
+        <activity
+            android:name=".point_j"
+            android:exported="false" />
+        <activity
+            android:name=".point_i"
+            android:exported="false" />
+        <activity
+            android:name=".point_h"
+            android:exported="false" />
+        <activity
+            android:name=".point_g"
+            android:exported="false" />
+        <activity
+            android:name=".point_f"
+            android:exported="false" />
+        <activity
+            android:name=".point_e"
+            android:exported="false" />
+        <activity
+            android:name=".point_d"
+            android:exported="false" />
+        <activity
+            android:name=".point_c"
+            android:exported="false" />
+        <activity
+            android:name=".point_b"
+            android:exported="false" />
+        <activity
+            android:name=".point_a"
+            android:exported="false" />
+        <activity
+            android:name=".sub_penilaian"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".list_item_penilaian"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".option_action_juri_page"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".option_tipe_penjurian_page"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".list_option_page"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".admin_page"
+            android:exported="false"
+            android:theme="@style/Theme.admin_page" />
+        <activity
+            android:name=".login_page"
+            android:exported="false"
+            android:theme="@style/Theme.login" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
